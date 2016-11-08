@@ -1,0 +1,104 @@
+@import url('http://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('http://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('http://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+body
+{
+    background-color: white;
+    font-family: "Titillium Web";
+}
+h1
+{
+	text-align: center;
+}
+
+ /*ovo je za kućice dok upisuju imena-*/
+input[name=Xigrac], input[name=Oigrac]
+{
+    width: 40%;
+    padding: 5px 10px;
+    margin: 10px 4px 10px 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ /*ovo je da imamo border oko formi */
+.forma_imena, .igra
+{
+	width: 30%;
+    min-width: 400px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	
+	padding: 10px;
+	margin-top: 50px;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.25);
+	text-align: center;
+}
+
+ /* izgled gumba*/
+.start, .restart
+{
+    width: 58%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.start:hover, .restart:hover 
+{
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+        text-align: center; 
+
+}
+.board {  margin: 0 auto; margin-top: 25px; }
+
+.board tr td 
+{ 
+	max-width: 100px;
+    max-height: 100px;
+	border: 10px solid #1c1c1c; 
+    text-align: center; 
+
+}
+
+#win
+{
+    color:red;
+    font-style: bold;
+}
+
+.button
+{
+    border: none;
+    padding: 50px 50px 50px 50px;
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    font-size: 60px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    font-family: 'Indie Flower';
+    line-height: 1em;
+}
+
+.button:hover
+{
+    background-color: #E0E0E0  ;
+}
